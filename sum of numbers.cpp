@@ -1,4 +1,5 @@
 #include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int calcSum(int a, int b, int c);
@@ -17,12 +18,6 @@ int main()
 
     return 0;
 } // } Driver Code Ends
-
-/*  Write your function here */
-
-/* The function should be named calcSum
-    and accepts three parameters of integer type
-    and returns the sum of the three integers */
 
 int calcSum(int a, int b, int c)
 {
