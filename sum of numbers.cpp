@@ -17,7 +17,7 @@ int main()
     }
 
     return 0;
-} // } Driver Code Ends
+} 
 
 int calcSum(int a, int b, int c)
 {
