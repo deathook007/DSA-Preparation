@@ -5,7 +5,6 @@ using namespace std;
 class Solution
 {
 public:
-    // function to return sum of elements
    
     int sum(int arr[], int n)
     {
