@@ -13,7 +13,7 @@ int main()
         int a, b, c;
         cin >> a >> b >> c;
         int sum = calcSum(a, b, c);
-        cout << sum << endl;
+        cout << sum << "\n";
     }
 
     return 0;
