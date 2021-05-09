@@ -2,8 +2,6 @@
 
 using namespace std;
 
-
-//User function template for C++
 class Solution
 {
 public:
