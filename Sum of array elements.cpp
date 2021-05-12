@@ -19,7 +19,7 @@ int main()
         {
             sum = sum + a[i];
         }
-        cout << sum << endl;
+        cout << sum << "\n";
     }
     return 0;
 }
