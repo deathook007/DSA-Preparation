@@ -6,10 +6,16 @@ using namespace std;
 class Solution
 {
 public:
-    string revStr(string S)
-    {
-        reverse(S.begin(), S.end());
-        return (S);
+    string reverseWord(string str){
+        int n = str.length();
+        int start = 0;
+        int end = n-1;
+        while(start < end){
+            swap(str[start], str[end]);
+            start++; 
+            end--;
+        }
+        return str;
     }
 };
 
@@ -22,7 +28,7 @@ int main()
         string S;
         cin >> S;
         Solution ob;
-        cout << ob.revStr(S) << endl;
+        cout << ob.reverseWord(S) << endl;
     }
     return 0;
 }
